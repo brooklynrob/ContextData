@@ -1,5 +1,9 @@
 import "../Context.js";
-import "../FINOS/Contact.ts";
+
+// The following typedefs would come from http://www.github.com/fdc3/typedefs ...
+// which itself would be a form of http://www.github.com/finos/typedefs
+// (Or they simply are imported right from www.github.com/finos/typedefs)
+import "../finos/typedefs/Contact.js"
 
 interface Contact extends Context {
   type: 'fdc3.contact',
