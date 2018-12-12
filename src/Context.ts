@@ -1,6 +1,6 @@
-interface Context {
+export interface Context {
     /**
-     * The type of the context that uniquely identifies it, e.g. "fdc3.instrument"     
+     * The type of the context that uniquely identifies it, e.g. "fdc3.instrument"
      * Used to refer to the accepted context(s) when declaring intents.
      */
     type: string;
@@ -9,7 +9,7 @@ interface Context {
      * The name of the context data (optional).
      * Implementors of context may choose to make the name mandatory.
      */
-    name?: string;
+    name: string;
 
     /**
      * An optional map of any equivalent identifiers for the

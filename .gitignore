@@ -1,0 +1,4 @@
+*.js
+src/examples/*.js
+src/examples/ContactList.js
+src/examples/Instrument.js
