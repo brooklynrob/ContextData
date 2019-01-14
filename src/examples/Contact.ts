@@ -7,7 +7,7 @@ import {FINOS} from '../../../../finos-fo/fo-financial-objects/typedefs/ts/FINOS
 
 export interface Contact extends Context, FINOS.FINOSContactTypeDef {
   type: 'fdc3.contact';
-  //addl field that FDC3 wants
+  //addl field that FDC3 might want
   //how can we extend contact object def itself
   org: string
 }
